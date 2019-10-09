@@ -1,0 +1,9 @@
+{
+"data": [{
+    "authorities": ["system", "centra"],
+    "authoritiesDesc": ["系统管理", "中控"],
+    "name": "admin",
+    "readOnly": false
+}],
+"status": 0
+}

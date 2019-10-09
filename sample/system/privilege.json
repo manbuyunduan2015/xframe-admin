@@ -1,0 +1,22 @@
+{
+"data": [{
+    "name": "系统管理",
+    "path": "system"
+}, {
+    "name": "&nbsp;&nbsp;&nbsp;&nbsp;角色列表",
+    "path": "system/role"
+}, {
+    "name": "&nbsp;&nbsp;&nbsp;&nbsp;权限列表",
+    "path": "system/privilege"
+}, {
+    "name": "&nbsp;&nbsp;&nbsp;&nbsp;用户列表",
+    "path": "system/user"
+}, {
+    "name": "中控",
+    "path": "centra"
+}, {
+    "name": "&nbsp;&nbsp;&nbsp;&nbsp;节点列表",
+    "path": "centra/cell"
+}],
+"status": 0
+}

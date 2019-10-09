@@ -284,7 +284,7 @@ var xtoast = {
 function doResp(func) {
     return function(resp) {
         if(resp.status == -1) {
-            xtoast.error(orElse(resp.data, '{0} 失败'.format(xlatestOp.name)));
+            xtoast.error('{0} 失败'.format(xlatestOp.name));
         } else if(xlatestOp) {
             xtoast.succ('{0} 成功'.format(xlatestOp.name));
             func(resp.data);
@@ -293,10 +293,6 @@ function doResp(func) {
         }
         xlatestOp = undefined;
     }
-}
-
-function orElse(a, b) {
-    return a ? a : b;
 }
 
 function xclick(btn, func) {
